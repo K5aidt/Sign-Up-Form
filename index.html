@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+        <title>login form</title>
+    </head>
+    <body>
+        <div class="h4 pb-2 mb-4 text-primary border-bottom border-primary">
+            <span>ساخت حساب کاربری</span>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="username-input" id="username-label" class="form-label text-black">نام کاربری <span class="text-danger">*</span></label>
+                <input id="username-label" class="form-control input-width" placeholder="نام کاربری" required>
+                <div class="form-text text-black-50" id="username-help">
+                    نام کاربری فقط میتواند شامل حروف و اعداد انگلیسی و آندرلاین (_) باشد
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email-input" id="email-label" class="form-label text-black">آدرس ایمیل<span class="text-danger">*</span></label>
+                <input id="email" type="email-input" class="form-control input-width" placeholder="Example@domain.com" required>
+                <div id="email-help" class="form-text  text-black-50">ما به هیچ وجه ایمیل شما را به اشتراک نمیگذاریم</div>
+            </div>
+            <div class="mb-3">
+                <label type="tel"for="phone-input" id="phone-label" max-length="11" class="form-label text-black">شماره همراه</label>
+                <input id="phone-input" class="form-control input-width" placeholder="مثال: 09123456789" >
+            </div>
+            <div class="mb-3">
+                <label for="password-input" id="password-label" class="form-label text-black">گذرواژه<span class="text-danger">*</span></label>
+                <input id="password-input" class="form-control input-width" type="password" placeholder="گذرواژه خود را وارد کنید" required>
+                <div id="password-help" class="form-text text-black-50">
+                    <ul>
+                        <li>گذرواژه باید حداقل از هشت رقم تشکیل شده باشد</li>
+                        <li>گذرواژه باید از حروف و عدد انگلیسی تشکیل شده باشد</li>
+                        <li>گذرواژه نباید از ایموجی یا کاراکتر های خاص تشکیل شده باشد</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="form-check-input" required>
+                <label for="form-check-input" id="for-check-label" class="form-label text-black">با ساخت حساب کاربری شما با <a href="#" class="text-primary text-decoration-none"><strong>قوانین استفاده از سرویس</strong></a> موافقت میکنید (تیک را بزنید)</label>
+            </div>
+            <button type="submit" value="submit" class="btn btn-primary">ثبت کردن</button>
+        </form>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
